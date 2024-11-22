@@ -90,9 +90,9 @@ class _LoginPageState extends State<LoginPage> {
                   labelText: 'Username',
                   hintText: 'Enter your username',
                   prefixIcon: Icon(Icons.person, color: const Color.fromARGB(255, 30, 31, 78)),
-                  labelStyle: GoogleFonts.poppins( // Apply Poppins font to label
-                    fontSize: 14.0, // Font size for the label text
-                    color: const Color.fromARGB(255, 30, 31, 78), // Label text color
+                  labelStyle: GoogleFonts.poppins( 
+                    fontSize: 14.0,
+                    color: const Color.fromARGB(255, 30, 31, 78),
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0), // Membuat border melengkung

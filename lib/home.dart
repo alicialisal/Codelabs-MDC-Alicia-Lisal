@@ -21,8 +21,12 @@ class HomePage extends StatelessWidget {
     }
 
     final ThemeData theme = Theme.of(context);
-    final NumberFormat formatter = NumberFormat.simpleCurrency(
-        locale: Localizations.localeOf(context).toString());
+    final NumberFormat formatter = NumberFormat.currency(
+      locale: 'id', // Indonesian locale
+      symbol: 'Rp', // Rupiah symbol
+      decimalDigits: 0, // No decimal places
+    );
+
 
     return products.map((product) {
       return Card(

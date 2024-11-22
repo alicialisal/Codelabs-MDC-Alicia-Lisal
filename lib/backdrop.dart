@@ -213,16 +213,16 @@ class _BackdropState extends State<Backdrop>
       key: _backdropKey,
       children: <Widget>[
         ExcludeSemantics(
-          child: widget.backLayer,
-          excluding: _frontLayerVisible,
-        ),
-        PositionedTransition(
-          rect: layerAnimation,
-          child: _FrontLayer(
-            onTap: _toggleBackdropLayerVisibility,
-            child: widget.frontLayer,
-          ),
-        ),
+  child: widget.backLayer,
+  excluding: _frontLayerVisible,
+),
+PositionedTransition(
+  rect: layerAnimation,
+  child: _FrontLayer(
+    onTap: _toggleBackdropLayerVisibility,
+    child: widget.frontLayer,
+  ),
+),
       ],
     );
   }

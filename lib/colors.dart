@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const kShrinePink50 = Color(0xFFEDE7F6);  // Lavender-like light pink
 const kShrinePink100 = Color.fromARGB(255, 228, 197, 238); // Soft lilac pink
 const kShrinePink300 = Color.fromARGB(255, 214, 152, 219); // Medium orchid pink
-const kShrinePink400 = Color.fromARGB(255, 186, 114, 192); // Deep purple-pink
+const kShrinePink400 = Color.fromARGB(255, 226, 185, 229); // Deep purple-pink
 
 // Blue shades
 const kShrineBlue50 = Color(0xFFE3F2FD);  // Light blue

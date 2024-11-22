@@ -1,5 +1,6 @@
 import 'package:codelabs_101/onboarding1.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'backdrop.dart';
 import 'category_menu_page.dart';
@@ -97,8 +98,7 @@ ThemeData _buildShrineTheme() {
 
 // TODO: Build a Shrine Text Theme (103)
 TextTheme _buildShrineTextTheme(TextTheme base) {
-  return base
-      .copyWith(
+  return GoogleFonts.poppinsTextTheme(base).copyWith(
         headlineSmall: base.headlineSmall!.copyWith(
           fontWeight: FontWeight.w500,
         ),
